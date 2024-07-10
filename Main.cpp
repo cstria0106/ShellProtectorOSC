@@ -16,10 +16,8 @@
 
 #if _WIN32
 #include <windows.h>
-#define MAIN                                                                   \
-  APIENTRY WinMain(HINSTANCE hInst, HINSTANCE hInstPrev, PSTR cmdline,         \
-                   int cmdshow)
-// #define MAIN main()
+#define MAIN APIENTRY WinMain(HINSTANCE hInst, HINSTANCE hInstPrev, PSTR cmdline, int cmdshow)
+//#define MAIN main()
 #else
 #define MAIN main()
 #endif
@@ -101,9 +99,9 @@ void DrawUI(OSC &osc) {
     ImGui::InputInt("##Refresh rate", &refreshRate, 0, 0);
   }
 
-  ImGui::Text("Save");
-  ImGui::SameLine();
-  ImGui::Checkbox("##save", &save);
+	ImGui::Text("Save password");
+	ImGui::SameLine();
+	ImGui::Checkbox("##save", &save);
 
   ImGui::SetNextItemWidth(100);
   if (!start) {
@@ -165,19 +163,21 @@ int MAIN {
   osc.Init("127.0.0.1", port);
   std::cout << "OSC Init\n";
 
-  Load loader;
-  if (!loader.LoadFile())
-    osc.AddLog("Can't load save file");
-  else {
-    for (int i = 0; i < loader.password.size(); ++i) {
-      password[i] = loader.password[i];
-    }
-    key_idx = loader.key_idx;
-    port = loader.port;
-    parameter_multiplexing = loader.parameter_multiplexing;
-    refreshRate = loader.refresh_rate;
-  }
-  std::cout << "Load save file\n";
+	Load loader;
+	if (!loader.LoadFile())
+		osc.AddLog("Can't load save file");
+	else
+	{
+		for (int i = 0; i < loader.password.size(); ++i)
+		{
+			password[i] = loader.password[i];
+		}
+		key_idx = loader.key_idx;
+		port = loader.port;
+		parameter_multiplexing = loader.parameter_multiplexing;
+		refreshRate = loader.refresh_rate;
+	}
+	std::cout << "Load save file\n";
 
   std::thread thr([&] {
     const float factor = pow(10.0f, 4);
@@ -281,14 +281,15 @@ int MAIN {
   if (thr.joinable())
     thr.join();
 
-  if (save) {
-    Save saver;
-    saver.password = password;
-    saver.key_idx = key_idx;
-    saver.port = port;
-    saver.parameter_multiplexing = parameter_multiplexing;
-    saver.refresh_rate = refreshRate;
-    saver.SaveFile();
-  }
-  return 0;
+	if (save)
+	{
+		Save saver;
+		saver.password = password;
+		saver.key_idx = key_idx;
+		saver.port = port;
+		saver.parameter_multiplexing = parameter_multiplexing;
+		saver.refresh_rate = refreshRate;
+		saver.SaveFile();
+	}
+	return 0;
 }
