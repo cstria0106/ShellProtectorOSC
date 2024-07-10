@@ -4,7 +4,11 @@
 void Save::SaveFile()
 {
 	FILE* f;
+#if _WIN32
 	fopen_s(&f, "save.sav", "w");
+#else
+	f = fopen("save.sav", "w");
+#endif
 	if (f == NULL)
 		return;
 

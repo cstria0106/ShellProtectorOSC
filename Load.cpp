@@ -3,7 +3,11 @@
 bool Load::LoadFile()
 {
 	FILE* f;
+#if _WIN32
 	fopen_s(&f, "save.sav", "r");
+#else
+	f = fopen("save.sav", "r");
+#endif
 	if (f == NULL)
 		return false;
 
