@@ -18,7 +18,7 @@
 #include <windows.h>
 #define MAIN APIENTRY WinMain(HINSTANCE hInst, HINSTANCE hInstPrev, PSTR cmdline, int cmdshow)
 //#define MAIN main()
-#elif
+#else
 #define MAIN main()
 #endif
 

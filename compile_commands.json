@@ -1,0 +1,668 @@
+[
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/imgui -I/home/rain/ShellProtectorOSC/lib/imgui-sfml -I/home/rain/ShellProtectorOSC/lib/SFML/include -g -include /home/rain/ShellProtectorOSC/Common.h -o CMakeFiles/OSC.dir/Load.cpp.o -c /home/rain/ShellProtectorOSC/Load.cpp",
+  "file": "/home/rain/ShellProtectorOSC/Load.cpp",
+  "output": "CMakeFiles/OSC.dir/Load.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/imgui -I/home/rain/ShellProtectorOSC/lib/imgui-sfml -I/home/rain/ShellProtectorOSC/lib/SFML/include -g -include /home/rain/ShellProtectorOSC/Common.h -o CMakeFiles/OSC.dir/Main.cpp.o -c /home/rain/ShellProtectorOSC/Main.cpp",
+  "file": "/home/rain/ShellProtectorOSC/Main.cpp",
+  "output": "CMakeFiles/OSC.dir/Main.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/imgui -I/home/rain/ShellProtectorOSC/lib/imgui-sfml -I/home/rain/ShellProtectorOSC/lib/SFML/include -g -include /home/rain/ShellProtectorOSC/Common.h -o CMakeFiles/OSC.dir/OSC.cpp.o -c /home/rain/ShellProtectorOSC/OSC.cpp",
+  "file": "/home/rain/ShellProtectorOSC/OSC.cpp",
+  "output": "CMakeFiles/OSC.dir/OSC.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/imgui -I/home/rain/ShellProtectorOSC/lib/imgui-sfml -I/home/rain/ShellProtectorOSC/lib/SFML/include -g -include /home/rain/ShellProtectorOSC/Common.h -o CMakeFiles/OSC.dir/Renderer.cpp.o -c /home/rain/ShellProtectorOSC/Renderer.cpp",
+  "file": "/home/rain/ShellProtectorOSC/Renderer.cpp",
+  "output": "CMakeFiles/OSC.dir/Renderer.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/imgui -I/home/rain/ShellProtectorOSC/lib/imgui-sfml -I/home/rain/ShellProtectorOSC/lib/SFML/include -g -include /home/rain/ShellProtectorOSC/Common.h -o CMakeFiles/OSC.dir/Save.cpp.o -c /home/rain/ShellProtectorOSC/Save.cpp",
+  "file": "/home/rain/ShellProtectorOSC/Save.cpp",
+  "output": "CMakeFiles/OSC.dir/Save.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/imgui -I/home/rain/ShellProtectorOSC/lib/imgui-sfml -I/home/rain/ShellProtectorOSC/lib/SFML/include -g -include /home/rain/ShellProtectorOSC/Common.h -o CMakeFiles/OSC.dir/SHA256.cpp.o -c /home/rain/ShellProtectorOSC/SHA256.cpp",
+  "file": "/home/rain/ShellProtectorOSC/SHA256.cpp",
+  "output": "CMakeFiles/OSC.dir/SHA256.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/imgui -I/home/rain/ShellProtectorOSC/lib/imgui-sfml -I/home/rain/ShellProtectorOSC/lib/SFML/include -g -include /home/rain/ShellProtectorOSC/Common.h -o CMakeFiles/OSC.dir/lib/imgui/imgui.cpp.o -c /home/rain/ShellProtectorOSC/lib/imgui/imgui.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/imgui/imgui.cpp",
+  "output": "CMakeFiles/OSC.dir/lib/imgui/imgui.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/imgui -I/home/rain/ShellProtectorOSC/lib/imgui-sfml -I/home/rain/ShellProtectorOSC/lib/SFML/include -g -include /home/rain/ShellProtectorOSC/Common.h -o CMakeFiles/OSC.dir/lib/imgui/imgui_draw.cpp.o -c /home/rain/ShellProtectorOSC/lib/imgui/imgui_draw.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/imgui/imgui_draw.cpp",
+  "output": "CMakeFiles/OSC.dir/lib/imgui/imgui_draw.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/imgui -I/home/rain/ShellProtectorOSC/lib/imgui-sfml -I/home/rain/ShellProtectorOSC/lib/SFML/include -g -include /home/rain/ShellProtectorOSC/Common.h -o CMakeFiles/OSC.dir/lib/imgui/imgui_widgets.cpp.o -c /home/rain/ShellProtectorOSC/lib/imgui/imgui_widgets.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/imgui/imgui_widgets.cpp",
+  "output": "CMakeFiles/OSC.dir/lib/imgui/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/imgui -I/home/rain/ShellProtectorOSC/lib/imgui-sfml -I/home/rain/ShellProtectorOSC/lib/SFML/include -g -include /home/rain/ShellProtectorOSC/Common.h -o CMakeFiles/OSC.dir/lib/imgui/imgui_demo.cpp.o -c /home/rain/ShellProtectorOSC/lib/imgui/imgui_demo.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/imgui/imgui_demo.cpp",
+  "output": "CMakeFiles/OSC.dir/lib/imgui/imgui_demo.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/imgui -I/home/rain/ShellProtectorOSC/lib/imgui-sfml -I/home/rain/ShellProtectorOSC/lib/SFML/include -g -include /home/rain/ShellProtectorOSC/Common.h -o CMakeFiles/OSC.dir/lib/imgui-sfml/imgui-SFML.cpp.o -c /home/rain/ShellProtectorOSC/lib/imgui-sfml/imgui-SFML.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/imgui-sfml/imgui-SFML.cpp",
+  "output": "CMakeFiles/OSC.dir/lib/imgui-sfml/imgui-SFML.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/System/Clock.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/System/Clock.cpp",
+  "output": "lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/System/Err.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/System/Err.cpp",
+  "output": "lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/System/Sleep.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/System/Sleep.cpp",
+  "output": "lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/System/String.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/System/String.cpp",
+  "output": "lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Utils.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/System/Utils.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/System/Utils.cpp",
+  "output": "lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Utils.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Vector2.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/System/Vector2.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/System/Vector2.cpp",
+  "output": "lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Vector2.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Vector3.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/System/Vector3.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/System/Vector3.cpp",
+  "output": "lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Vector3.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/System/FileInputStream.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/System/FileInputStream.cpp",
+  "output": "lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/System/MemoryInputStream.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/System/MemoryInputStream.cpp",
+  "output": "lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/System/Unix/SleepImpl.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/System/Unix/SleepImpl.cpp",
+  "output": "lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Clipboard.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Clipboard.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Clipboard.cpp",
+  "output": "lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Clipboard.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Context.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Context.cpp",
+  "output": "lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Cursor.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Cursor.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Cursor.cpp",
+  "output": "lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Cursor.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/GlContext.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/GlContext.cpp",
+  "output": "lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/GlResource.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/GlResource.cpp",
+  "output": "lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Joystick.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Joystick.cpp",
+  "output": "lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/JoystickManager.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/JoystickManager.cpp",
+  "output": "lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Keyboard.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Keyboard.cpp",
+  "output": "lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Mouse.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Mouse.cpp",
+  "output": "lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Touch.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Touch.cpp",
+  "output": "lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Sensor.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Sensor.cpp",
+  "output": "lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/SensorManager.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/SensorManager.cpp",
+  "output": "lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/VideoMode.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/VideoMode.cpp",
+  "output": "lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Vulkan.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Vulkan.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Vulkan.cpp",
+  "output": "lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Vulkan.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Window.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Window.cpp",
+  "output": "lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowBase.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/WindowBase.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/WindowBase.cpp",
+  "output": "lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowBase.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/WindowImpl.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/WindowImpl.cpp",
+  "output": "lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/CursorImpl.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Unix/CursorImpl.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Unix/CursorImpl.cpp",
+  "output": "lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/CursorImpl.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/ClipboardImpl.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Unix/ClipboardImpl.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Unix/ClipboardImpl.cpp",
+  "output": "lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/ClipboardImpl.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/InputImpl.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Unix/InputImpl.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Unix/InputImpl.cpp",
+  "output": "lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/InputImpl.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/KeyboardImpl.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Unix/KeyboardImpl.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Unix/KeyboardImpl.cpp",
+  "output": "lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/KeyboardImpl.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/KeySymToKeyMapping.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Unix/KeySymToKeyMapping.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Unix/KeySymToKeyMapping.cpp",
+  "output": "lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/KeySymToKeyMapping.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/KeySymToUnicodeMapping.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Unix/KeySymToUnicodeMapping.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Unix/KeySymToUnicodeMapping.cpp",
+  "output": "lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/KeySymToUnicodeMapping.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/SensorImpl.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Unix/SensorImpl.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Unix/SensorImpl.cpp",
+  "output": "lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/SensorImpl.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/Display.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Unix/Display.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Unix/Display.cpp",
+  "output": "lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/Display.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VideoModeImpl.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Unix/VideoModeImpl.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Unix/VideoModeImpl.cpp",
+  "output": "lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VideoModeImpl.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VulkanImplX11.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Unix/VulkanImplX11.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Unix/VulkanImplX11.cpp",
+  "output": "lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VulkanImplX11.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/WindowImplX11.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Unix/WindowImplX11.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Unix/WindowImplX11.cpp",
+  "output": "lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/WindowImplX11.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxContext.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Unix/GlxContext.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Unix/GlxContext.cpp",
+  "output": "lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxContext.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/JoystickImpl.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Unix/JoystickImpl.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Window/Unix/JoystickImpl.cpp",
+  "output": "lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/JoystickImpl.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Network/Ftp.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Network/Ftp.cpp",
+  "output": "lib/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Http.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Network/Http.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Network/Http.cpp",
+  "output": "lib/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Http.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Network/IpAddress.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Network/IpAddress.cpp",
+  "output": "lib/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Packet.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Network/Packet.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Network/Packet.cpp",
+  "output": "lib/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Packet.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Socket.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Network/Socket.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Network/Socket.cpp",
+  "output": "lib/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Socket.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Network/SocketSelector.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Network/SocketSelector.cpp",
+  "output": "lib/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpListener.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Network/TcpListener.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Network/TcpListener.cpp",
+  "output": "lib/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpListener.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpSocket.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Network/TcpSocket.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Network/TcpSocket.cpp",
+  "output": "lib/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpSocket.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/UdpSocket.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Network/UdpSocket.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Network/UdpSocket.cpp",
+  "output": "lib/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/UdpSocket.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Network/Unix/SocketImpl.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Network/Unix/SocketImpl.cpp",
+  "output": "lib/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/stb_image -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/BlendMode.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/BlendMode.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/BlendMode.cpp",
+  "output": "lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/BlendMode.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/stb_image -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/Font.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/Font.cpp",
+  "output": "lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/stb_image -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Glsl.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/Glsl.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/Glsl.cpp",
+  "output": "lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Glsl.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/stb_image -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/GLCheck.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/GLCheck.cpp",
+  "output": "lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/stb_image -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/GLExtensions.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/GLExtensions.cpp",
+  "output": "lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/stb_image -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -fno-strict-aliasing -o lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/Image.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/Image.cpp",
+  "output": "lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/stb_image -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/RenderStates.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/RenderStates.cpp",
+  "output": "lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/stb_image -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/RenderTexture.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/RenderTexture.cpp",
+  "output": "lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/stb_image -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/RenderTarget.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/RenderTarget.cpp",
+  "output": "lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/stb_image -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/RenderWindow.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/RenderWindow.cpp",
+  "output": "lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/stb_image -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/Shader.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/Shader.cpp",
+  "output": "lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/stb_image -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/StencilMode.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/StencilMode.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/StencilMode.cpp",
+  "output": "lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/StencilMode.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/stb_image -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/Texture.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/Texture.cpp",
+  "output": "lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/stb_image -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/TextureSaver.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/TextureSaver.cpp",
+  "output": "lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/stb_image -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/Transform.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/Transform.cpp",
+  "output": "lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/stb_image -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/Transformable.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/Transformable.cpp",
+  "output": "lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/stb_image -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/View.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/View.cpp",
+  "output": "lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/stb_image -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/Shape.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/Shape.cpp",
+  "output": "lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/stb_image -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/CircleShape.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/CircleShape.cpp",
+  "output": "lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/stb_image -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/RectangleShape.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/RectangleShape.cpp",
+  "output": "lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/stb_image -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/ConvexShape.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/ConvexShape.cpp",
+  "output": "lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/stb_image -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/Sprite.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/Sprite.cpp",
+  "output": "lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/stb_image -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/Text.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/Text.cpp",
+  "output": "lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/stb_image -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/VertexArray.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/VertexArray.cpp",
+  "output": "lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/stb_image -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/VertexBuffer.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/VertexBuffer.cpp",
+  "output": "lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/stb_image -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/RenderTextureImplFBO.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/RenderTextureImplFBO.cpp",
+  "output": "lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/stb_image -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/RenderTextureImplDefault.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Graphics/RenderTextureImplDefault.cpp",
+  "output": "lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/miniaudio -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioResource.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/AudioResource.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/AudioResource.cpp",
+  "output": "lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioResource.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/miniaudio -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/AudioDevice.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/AudioDevice.cpp",
+  "output": "lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/miniaudio -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/Listener.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/Listener.cpp",
+  "output": "lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/miniaudio -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Miniaudio.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/Miniaudio.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/Miniaudio.cpp",
+  "output": "lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Miniaudio.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/miniaudio -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/MiniaudioUtils.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/MiniaudioUtils.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/MiniaudioUtils.cpp",
+  "output": "lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/MiniaudioUtils.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/miniaudio -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/Music.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/Music.cpp",
+  "output": "lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/miniaudio -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/PlaybackDevice.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/PlaybackDevice.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/PlaybackDevice.cpp",
+  "output": "lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/PlaybackDevice.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/miniaudio -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/Sound.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/Sound.cpp",
+  "output": "lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/miniaudio -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/SoundBuffer.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/SoundBuffer.cpp",
+  "output": "lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/miniaudio -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/SoundBufferRecorder.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/SoundBufferRecorder.cpp",
+  "output": "lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/miniaudio -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/InputSoundFile.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/InputSoundFile.cpp",
+  "output": "lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/miniaudio -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/OutputSoundFile.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/OutputSoundFile.cpp",
+  "output": "lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/miniaudio -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/SoundRecorder.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/SoundRecorder.cpp",
+  "output": "lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/miniaudio -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/SoundSource.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/SoundSource.cpp",
+  "output": "lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/miniaudio -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/SoundStream.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/SoundStream.cpp",
+  "output": "lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/miniaudio -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/SoundFileFactory.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/SoundFileFactory.cpp",
+  "output": "lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/miniaudio -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/SoundFileReaderFlac.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/SoundFileReaderFlac.cpp",
+  "output": "lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/miniaudio -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderMp3.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/SoundFileReaderMp3.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/SoundFileReaderMp3.cpp",
+  "output": "lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderMp3.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/miniaudio -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/SoundFileReaderOgg.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/SoundFileReaderOgg.cpp",
+  "output": "lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/miniaudio -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/SoundFileReaderWav.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/SoundFileReaderWav.cpp",
+  "output": "lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/miniaudio -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/SoundFileWriterFlac.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/SoundFileWriterFlac.cpp",
+  "output": "lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/miniaudio -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/SoundFileWriterOgg.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/SoundFileWriterOgg.cpp",
+  "output": "lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.o"
+},
+{
+  "directory": "/home/rain/ShellProtectorOSC/build",
+  "command": "/usr/bin/g++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC -I/home/rain/ShellProtectorOSC/lib/SFML/include -I/home/rain/ShellProtectorOSC/lib/SFML/src -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/miniaudio -isystem /home/rain/ShellProtectorOSC/lib/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.o -c /home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/SoundFileWriterWav.cpp",
+  "file": "/home/rain/ShellProtectorOSC/lib/SFML/src/SFML/Audio/SoundFileWriterWav.cpp",
+  "output": "lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.o"
+}
+]
