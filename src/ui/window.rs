@@ -1,6 +1,6 @@
 use anyhow::Result;
 use eframe::{
-    egui::{self, Context, Layout, Theme, ViewportBuilder, ViewportCommand},
+    egui::{self, Context, IconData, Layout, Theme, ViewportBuilder, ViewportCommand},
     App, Frame, NativeOptions,
 };
 use std::sync::Arc;
@@ -8,7 +8,7 @@ use tokio::sync::{mpsc, RwLock};
 
 use crate::options::Options;
 
-use super::windows;
+use super::{icon::get_icon, windows};
 
 #[derive(Clone, Debug)]
 pub enum WindowEvent {
@@ -72,6 +72,7 @@ impl Window {
     }
 
     pub fn show(self) -> Result<()> {
+        let (width, height, buffer) = get_icon()?;
         eframe::run_native(
             "ShellProtectorOSC",
             NativeOptions {
@@ -81,7 +82,12 @@ impl Window {
                     .with_resizable(false)
                     .with_decorations(false)
                     .with_transparent(true)
-                    .with_maximize_button(false),
+                    .with_maximize_button(false)
+                    .with_icon(IconData {
+                        rgba: buffer,
+                        width,
+                        height,
+                    }),
                 ..Default::default()
             },
             Box::new(|ctx| {

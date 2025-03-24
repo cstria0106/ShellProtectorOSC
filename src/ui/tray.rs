@@ -7,6 +7,8 @@ use tray_icon::{
     Icon, TrayIconBuilder, TrayIconEvent,
 };
 
+use super::icon::get_icon;
+
 #[derive(Clone, Debug)]
 pub enum TrayEvent {
     ShowWindow,
@@ -40,9 +42,11 @@ impl Tray {
                 .build(),
         )?;
 
+        let (width, height, buffer) = get_icon()?;
+
         let tray_icon = TrayIconBuilder::new()
             .with_tooltip("ShellProtectorOSC")
-            .with_icon(Self::load_icon(include_bytes!("../../assets/icon32"))?)
+            .with_icon(Icon::from_rgba(buffer, width, height)?)
             .with_menu(menu)
             .build()?;
 
@@ -53,20 +57,6 @@ impl Tray {
 
         tray.spawn_event_handler();
         Ok(tray)
-    }
-
-    fn load_icon(buffer: &[u8]) -> Result<Icon> {
-        let mut reader = BufReader::new(buffer);
-        let mut width = [0; 4];
-        let mut height = [0; 4];
-        reader.read(&mut width)?;
-        reader.read(&mut height)?;
-        let width = u32::from_le_bytes(width);
-        let height = u32::from_le_bytes(height);
-        let mut buffer = vec![0; width as usize * height as usize * 4];
-        reader.read(&mut buffer)?;
-        let icon = Icon::from_rgba(buffer, width, height)?;
-        Ok(icon)
     }
 
     fn spawn_event_handler(&self) {
