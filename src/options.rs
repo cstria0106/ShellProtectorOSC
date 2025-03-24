@@ -27,7 +27,7 @@ impl Options {
     fn default_path() -> Result<String> {
         let mut path = std::env::current_exe()?;
         path.pop();
-        path.push("options.json");
+        path.push("shell_protector_options.json");
         Ok(path.to_string_lossy().to_string())
     }
 
