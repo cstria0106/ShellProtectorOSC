@@ -29,8 +29,8 @@ impl Tray {
         let menu = Box::new(Menu::new());
         menu.append(
             &MenuItemBuilder::new()
-                .id(MenuId::new("open"))
-                .text("Open")
+                .id(MenuId::new("show"))
+                .text("Show")
                 .enabled(true)
                 .build(),
         )?;
@@ -80,7 +80,7 @@ impl Tray {
                 recv(MenuEvent::receiver()) -> event => {
                     if let Ok(event) = event {
                         match event.id().0.as_str() {
-                            "open" => {
+                            "show" => {
                                 _ = sender.blocking_send(TrayEvent::ShowWindow);
                             }
                             "quit" => {
