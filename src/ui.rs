@@ -120,6 +120,7 @@ impl UI {
                 viewport: ViewportBuilder::default()
                     .with_inner_size([300.0, 240.0])
                     .with_resizable(false)
+                    .with_maximize_button(false)
                     .with_visible(visible),
                 ..Default::default()
             },
@@ -128,7 +129,6 @@ impl UI {
                 self.shared_ctx
                     .blocking_write()
                     .replace(ctx.egui_ctx.clone());
-
                 on_created();
                 Ok(Box::new(self))
             }),
