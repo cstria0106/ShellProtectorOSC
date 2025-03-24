@@ -1,9 +1,13 @@
 use anyhow::Result;
 use eframe::{
-    egui::{self, Context, Layout, Theme, ViewportBuilder, ViewportCommand, Window},
+    egui::{self, Context, Layout, Theme, ViewportBuilder, ViewportCommand},
     App, Frame, NativeOptions,
 };
-use std::{sync::Arc, thread};
+use std::{
+    io::{BufReader, Read},
+    sync::Arc,
+    thread,
+};
 use tokio::sync::{mpsc, RwLock};
 use tray_icon::{
     menu::{Menu, MenuEvent, MenuId, MenuItemBuilder},
@@ -44,9 +48,16 @@ impl UI {
     }
 
     fn load_icon(buffer: &[u8]) -> Result<Icon> {
-        let image = image::load_from_memory(buffer)?.into_rgba8();
-        let (width, height) = image.dimensions();
-        let icon = Icon::from_rgba(image.into_raw(), width, height)?;
+        let mut reader = BufReader::new(buffer);
+        let mut width = [0; 4];
+        let mut height = [0; 4];
+        reader.read(&mut width)?;
+        reader.read(&mut height)?;
+        let width = u32::from_le_bytes(width);
+        let height = u32::from_le_bytes(height);
+        let mut buffer = vec![0; width as usize * height as usize * 4];
+        reader.read(&mut buffer)?;
+        let icon = Icon::from_rgba(buffer, width, height)?;
         Ok(icon)
     }
 
@@ -69,7 +80,7 @@ impl UI {
         )?;
         let _tray_icon = TrayIconBuilder::new()
             .with_tooltip("ShellProtectorOSC")
-            .with_icon(Self::load_icon(include_bytes!("../assets/icon32.png"))?)
+            .with_icon(Self::load_icon(include_bytes!("../assets/icon32"))?)
             .with_menu(menu);
 
         let ui_event_sender_for_tray = self.ui_event_sender.clone();
