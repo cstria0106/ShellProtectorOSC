@@ -1,5 +1,4 @@
 use anyhow::Result;
-use eframe::egui::{Context, ViewportCommand};
 use rosc::{encoder, OscMessage, OscPacket, OscType};
 use sha2::Digest;
 use std::{sync::Arc, time::Duration};
@@ -9,18 +8,22 @@ use tokio::{
     sync::{mpsc, Mutex, RwLock},
 };
 
-use crate::{options::Options, ui::UIEvent};
+use crate::{
+    options::Options,
+    ui::{TrayEvent, WindowEvent, WindowHandle},
+};
 
-struct BackgroundState {
+struct State {
     stop_request: Option<Arc<RwLock<bool>>>,
 }
 
 #[derive(Clone)]
-pub struct BackgroundTask {
-    ui_event_receiver: Arc<Mutex<mpsc::Receiver<UIEvent>>>,
-    ui_context: Arc<RwLock<Option<Context>>>,
+pub struct CoreTask {
+    window_event_receiver: Arc<Mutex<mpsc::Receiver<WindowEvent>>>,
+    tray_event_receiver: Arc<Mutex<mpsc::Receiver<TrayEvent>>>,
+    window_handle: Arc<RwLock<WindowHandle>>,
     options: Arc<RwLock<Options>>,
-    state: Arc<RwLock<BackgroundState>>,
+    state: Arc<RwLock<State>>,
 }
 
 fn get_parameter_name(index: usize) -> String {
@@ -46,17 +49,19 @@ fn get_osc_message(index: usize, password: &[u8], hash: &[u8]) -> Result<OscMess
     })
 }
 
-impl BackgroundTask {
+impl CoreTask {
     pub fn new(
-        ui_event_receiver: mpsc::Receiver<UIEvent>,
-        ui_context: Arc<RwLock<Option<Context>>>,
+        window_event_receiver: mpsc::Receiver<WindowEvent>,
+        window_handle: WindowHandle,
+        tray_event_receiver: mpsc::Receiver<TrayEvent>,
         options: &Arc<RwLock<Options>>,
     ) -> Self {
         Self {
-            ui_event_receiver: Arc::new(Mutex::new(ui_event_receiver)),
-            ui_context: ui_context.clone(),
+            window_event_receiver: Arc::new(Mutex::new(window_event_receiver)),
+            window_handle: Arc::new(RwLock::new(window_handle)),
+            tray_event_receiver: Arc::new(Mutex::new(tray_event_receiver)),
             options: options.clone(),
-            state: Arc::new(RwLock::new(BackgroundState { stop_request: None })),
+            state: Arc::new(RwLock::new(State { stop_request: None })),
         }
     }
 
@@ -124,9 +129,9 @@ impl BackgroundTask {
         Ok(())
     }
 
-    async fn handle_ui_event(&self, event: UIEvent) -> Result<()> {
+    async fn handle_window_event(&self, event: WindowEvent) -> Result<()> {
         match event {
-            UIEvent::OptionsChanged(options) => {
+            WindowEvent::OptionsChanged(options) => {
                 if options.started {
                     self.start_send().await?;
                 } else {
@@ -136,19 +141,17 @@ impl BackgroundTask {
                 options.save()?;
                 *self.options.write().await = options;
             }
-            UIEvent::Hide => {
-                if let Some(context) = self.ui_context.read().await.as_ref() {
-                    context.send_viewport_cmd(ViewportCommand::Visible(false));
-                    context.request_repaint();
-                }
+        }
+
+        Ok(())
+    }
+
+    async fn handle_tray_event(&self, event: TrayEvent) -> Result<()> {
+        match event {
+            TrayEvent::ShowWindow => {
+                _ = self.window_handle.read().await.show().await;
             }
-            UIEvent::Show => {
-                if let Some(context) = self.ui_context.read().await.as_ref() {
-                    context.send_viewport_cmd(ViewportCommand::Visible(true));
-                    context.request_repaint();
-                }
-            }
-            UIEvent::Quit => {
+            TrayEvent::Quit => {
                 std::process::exit(0);
             }
         }
@@ -157,11 +160,17 @@ impl BackgroundTask {
     }
 
     async fn start_event_loop(&self) {
-        let mut ui_event_receiver = self.ui_event_receiver.lock().await;
+        let mut window_event_receiver = self.window_event_receiver.lock().await;
+        let mut tray_event_receiver = self.tray_event_receiver.lock().await;
         loop {
             select! {
-                Some(event) =  ui_event_receiver.recv() => {
-                    if let Err(e) = self.handle_ui_event(event).await {
+                Some(event) =  window_event_receiver.recv() => {
+                    if let Err(e) = self.handle_window_event(event).await {
+                        eprintln!("Error handling event: {}", e);
+                    }
+                }
+                Some(event) = tray_event_receiver.recv() => {
+                    if let Err(e) = self.handle_tray_event(event).await {
                         eprintln!("Error handling event: {}", e);
                     }
                 }
