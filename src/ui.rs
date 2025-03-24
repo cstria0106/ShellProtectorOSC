@@ -14,21 +14,14 @@ use crate::options::Options;
 
 #[derive(Clone, Debug)]
 pub enum UIEvent {
-    Start,
-    Stop,
     OptionsChanged(Options),
     Hide,
     Show,
     Quit,
 }
 
-struct UIState {
-    started: bool,
-}
-
 pub struct UI {
     options: Arc<RwLock<Options>>,
-    state: UIState,
     ui_event_sender: mpsc::Sender<UIEvent>,
     shared_ctx: Arc<RwLock<Option<Context>>>,
 }
@@ -42,7 +35,6 @@ impl UI {
         (
             Self {
                 options: options.clone(),
-                state: UIState { started: false },
                 ui_event_sender,
                 shared_ctx: shared_ctx.clone(),
             },
@@ -157,7 +149,7 @@ impl App for UI {
 
                 let mut options = self.options.blocking_read().clone();
                 ui.group(|ui| {
-                    if self.state.started {
+                    if options.started {
                         ui.disable();
                     }
                     ui.label("Password");
@@ -196,32 +188,23 @@ impl App for UI {
                     }
                 });
 
+                ui.add_space(8.0);
+                ui.horizontal(|ui| {
+                    ui.vertical_centered(|ui| {
+                        if ui
+                            .button(if options.started { "Stop" } else { "Start" })
+                            .clicked()
+                        {
+                            options.started = !options.started;
+                        }
+                    });
+                });
+
                 if self.options.blocking_read().clone() != options {
                     self.ui_event_sender
                         .blocking_send(UIEvent::OptionsChanged(options))
                         .unwrap();
                 }
-
-                ui.add_space(8.0);
-                ui.horizontal(|ui| {
-                    ui.vertical_centered(|ui| {
-                        if ui
-                            .button(if self.state.started { "Stop" } else { "Start" })
-                            .clicked()
-                        {
-                            self.state.started = !self.state.started;
-                            if let Err(e) =
-                                self.ui_event_sender.blocking_send(if self.state.started {
-                                    UIEvent::Start
-                                } else {
-                                    UIEvent::Stop
-                                })
-                            {
-                                eprintln!("Error sending event: {}", e);
-                            }
-                        }
-                    });
-                });
             });
         });
     }

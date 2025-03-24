@@ -9,6 +9,7 @@ pub struct Options {
     pub password_length: usize,
     pub port: u16,
     pub start_tray: bool,
+    pub started: bool,
 }
 
 impl Options {
@@ -38,6 +39,7 @@ impl Options {
             password_length: 12,
             port: 9000,
             start_tray: false,
+            started: false,
         }
     }
 

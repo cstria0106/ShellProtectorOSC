@@ -12,7 +12,7 @@ use tokio::{
 use crate::{options::Options, ui::UIEvent};
 
 struct BackgroundState {
-    socket: Option<UdpSocket>,
+    stop_request: Option<Arc<RwLock<bool>>>,
 }
 
 #[derive(Clone)]
@@ -56,55 +56,85 @@ impl BackgroundTask {
             ui_event_receiver: Arc::new(Mutex::new(ui_event_receiver)),
             ui_context: ui_context.clone(),
             options: options.clone(),
-            state: Arc::new(RwLock::new(BackgroundState { socket: None })),
+            state: Arc::new(RwLock::new(BackgroundState { stop_request: None })),
         }
     }
 
-    async fn send(&self) {
+    async fn send(&self, socket: UdpSocket, stop_request: Arc<RwLock<bool>>) {
         loop {
-            if let Some(socket) = self.state.read().await.socket.as_ref() {
-                let password = self.options.read().await.password.clone();
-                let password_length = self.options.read().await.password_length;
-                let hash = sha2::Sha256::digest(password.as_bytes());
-                for i in 0..password_length {
-                    if let Ok(message) = get_osc_message(i, password.as_bytes(), hash.as_ref()) {
-                        if let Ok(message) = encoder::encode(&OscPacket::Message(message)) {
-                            if let Err(e) = socket.send(&message).await {
-                                eprintln!("Error sending message: {}", e);
-                            }
-                        }
-                    }
-                }
-            } else {
+            if *stop_request.read().await {
                 break;
             }
 
-            tokio::time::sleep(Duration::from_millis(
-                self.options.read().await.refresh_rate,
-            ))
-            .await;
+            // Create hash
+            let password = self.options.read().await.password.clone();
+            let password_length = self.options.read().await.password_length;
+            let hash = sha2::Sha256::digest(password.as_bytes());
+
+            // Send messages
+            for i in 0..password_length {
+                if let Ok(message) = get_osc_message(i, password.as_bytes(), hash.as_ref()) {
+                    if let Ok(message) = encoder::encode(&OscPacket::Message(message)) {
+                        if let Err(e) = socket.send(&message).await {
+                            eprintln!("Error sending message: {}", e);
+                        }
+                    }
+                }
+            }
+
+            let refresh_rate = self.options.read().await.refresh_rate;
+            tokio::time::sleep(Duration::from_millis(refresh_rate)).await;
         }
+    }
+
+    async fn start_send(&self) -> Result<()> {
+        // Create stop request
+        let stop_request = Arc::new(RwLock::new(false));
+        let previous_stop_request = self
+            .state
+            .write()
+            .await
+            .stop_request
+            .replace(stop_request.clone());
+
+        if let Some(previous_stop_request) = previous_stop_request {
+            *previous_stop_request.write().await = true;
+        }
+
+        // Create socket
+        let socket = UdpSocket::bind("0.0.0.0:0").await?;
+        socket
+            .connect(format!("127.0.0.1:{}", self.options.read().await.port))
+            .await?;
+
+        // Start send task
+        let me = self.clone();
+        tokio::spawn(async move {
+            me.send(socket, stop_request).await;
+        });
+
+        Ok(())
+    }
+
+    async fn stop_send(&self) -> Result<()> {
+        if let Some(stop_request) = self.state.write().await.stop_request.take() {
+            *stop_request.write().await = true;
+        }
+
+        Ok(())
     }
 
     async fn handle_ui_event(&self, event: UIEvent) -> Result<()> {
         match event {
             UIEvent::OptionsChanged(options) => {
+                if options.started {
+                    self.start_send().await?;
+                } else {
+                    self.stop_send().await?;
+                }
+
                 options.save()?;
                 *self.options.write().await = options;
-            }
-            UIEvent::Start => {
-                let socket = UdpSocket::bind("0.0.0.0:0").await?;
-                socket
-                    .connect(format!("127.0.0.1:{}", self.options.read().await.port))
-                    .await?;
-                self.state.write().await.socket = Some(socket);
-                let me = self.clone();
-                tokio::spawn(async move {
-                    me.send().await;
-                });
-            }
-            UIEvent::Stop => {
-                self.state.write().await.socket.take();
             }
             UIEvent::Hide => {
                 if let Some(context) = self.ui_context.read().await.as_ref() {
@@ -141,6 +171,10 @@ impl BackgroundTask {
     }
 
     pub async fn run(self) -> Result<()> {
+        if self.options.read().await.started {
+            self.start_send().await?;
+        }
+
         self.start_event_loop().await;
         Ok(())
     }
