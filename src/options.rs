@@ -8,6 +8,7 @@ pub struct Options {
     pub password: String,
     pub password_length: usize,
     pub port: u16,
+    pub start_tray: bool,
 }
 
 impl Options {
@@ -36,6 +37,7 @@ impl Options {
             password: "".to_string(),
             password_length: 12,
             port: 9000,
+            start_tray: false,
         }
     }
 

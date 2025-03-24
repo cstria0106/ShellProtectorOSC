@@ -1,10 +1,14 @@
 use anyhow::Result;
 use eframe::{
-    egui::{self, Context, Layout, Theme, ViewportBuilder},
+    egui::{self, Context, Layout, Theme, ViewportBuilder, ViewportCommand, Window},
     App, Frame, NativeOptions,
 };
-use std::sync::Arc;
+use std::{sync::Arc, thread};
 use tokio::sync::{mpsc, RwLock};
+use tray_icon::{
+    menu::{Menu, MenuEvent, MenuId, MenuItemBuilder},
+    Icon, TrayIconBuilder, TrayIconEvent,
+};
 
 use crate::options::Options;
 
@@ -13,6 +17,9 @@ pub enum UIEvent {
     Start,
     Stop,
     OptionsChanged(Options),
+    Hide,
+    Show,
+    Quit,
 }
 
 struct UIState {
@@ -23,33 +30,106 @@ pub struct UI {
     options: Arc<RwLock<Options>>,
     state: UIState,
     ui_event_sender: mpsc::Sender<UIEvent>,
+    shared_ctx: Arc<RwLock<Option<Context>>>,
 }
 
 impl UI {
-    pub fn new(options: &Arc<RwLock<Options>>) -> (Self, mpsc::Receiver<UIEvent>) {
+    pub fn new(
+        options: &Arc<RwLock<Options>>,
+    ) -> (Self, mpsc::Receiver<UIEvent>, Arc<RwLock<Option<Context>>>) {
         let (ui_event_sender, ui_event_receiver) = mpsc::channel(1);
+        let shared_ctx = Arc::new(RwLock::new(None));
         (
             Self {
                 options: options.clone(),
                 state: UIState { started: false },
                 ui_event_sender,
+                shared_ctx: shared_ctx.clone(),
             },
             ui_event_receiver,
+            shared_ctx,
         )
     }
 
-    pub fn run(self) -> Result<()> {
+    fn load_icon(buffer: &[u8]) -> Result<Icon> {
+        let image = image::load_from_memory(buffer)?.into_rgba8();
+        let (width, height) = image.dimensions();
+        let icon = Icon::from_rgba(image.into_raw(), width, height)?;
+        Ok(icon)
+    }
+
+    pub fn run(self, on_created: impl FnOnce()) -> Result<()> {
+        let visible = !self.options.blocking_read().start_tray;
+        let menu = Box::new(Menu::new());
+        menu.append(
+            &MenuItemBuilder::new()
+                .id(MenuId::new("open"))
+                .text("Open")
+                .enabled(true)
+                .build(),
+        )?;
+        menu.append(
+            &MenuItemBuilder::new()
+                .id(MenuId::new("quit"))
+                .text("Quit")
+                .enabled(true)
+                .build(),
+        )?;
+        let _tray_icon = TrayIconBuilder::new()
+            .with_tooltip("ShellProtectorOSC")
+            .with_icon(Self::load_icon(include_bytes!("../assets/icon32.png"))?)
+            .with_menu(menu);
+
+        let ui_event_sender_for_tray = self.ui_event_sender.clone();
+        thread::spawn(move || loop {
+            crossbeam_channel::select! {
+                recv(TrayIconEvent::receiver()) -> event => {
+                    match event {
+                        Ok(event) => {
+                            match event {
+                                TrayIconEvent::DoubleClick { .. } => {
+                                    _ = ui_event_sender_for_tray.blocking_send(UIEvent::Show);
+                                }
+                                _ => {}
+                            }
+                        }
+                        _ => {}
+                    }
+                },
+
+                recv(MenuEvent::receiver()) -> event => {
+                    if let Ok(event) = event {
+                        match event.id().0.as_str() {
+                            "open" => {
+                                _ = ui_event_sender_for_tray.blocking_send(UIEvent::Show);
+                            }
+                            "quit" => {
+                                _ = ui_event_sender_for_tray.blocking_send(UIEvent::Quit);
+                            }
+                            _ => {}
+                        }
+                    }
+                }
+            }
+        });
+
         eframe::run_native(
             "ShellProtectorOSC",
             NativeOptions {
                 centered: true,
                 viewport: ViewportBuilder::default()
                     .with_inner_size([300.0, 240.0])
-                    .with_resizable(false),
+                    .with_resizable(false)
+                    .with_visible(visible),
                 ..Default::default()
             },
             Box::new(|ctx| {
                 ctx.egui_ctx.set_theme(Theme::Dark);
+                self.shared_ctx
+                    .blocking_write()
+                    .replace(ctx.egui_ctx.clone());
+
+                on_created();
                 Ok(Box::new(self))
             }),
         )
@@ -59,6 +139,14 @@ impl UI {
 
 impl App for UI {
     fn update(&mut self, ctx: &Context, _: &mut Frame) {
+        if ctx.input(|i| i.viewport().close_requested()) {
+            return;
+            ctx.send_viewport_cmd(ViewportCommand::CancelClose);
+            if let Err(e) = self.ui_event_sender.blocking_send(UIEvent::Hide) {
+                eprintln!("Error sending event: {}", e);
+            }
+        }
+
         egui::CentralPanel::default().show(ctx, |ui| {
             ui.with_layout(Layout::top_down_justified(egui::Align::LEFT), |ui| {
                 ui.add_space(4.0);

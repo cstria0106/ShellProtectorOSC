@@ -1,4 +1,5 @@
 use anyhow::Result;
+use eframe::egui::{Context, ViewportCommand};
 use rosc::{encoder, OscMessage, OscPacket, OscType};
 use sha2::Digest;
 use std::{sync::Arc, time::Duration};
@@ -16,7 +17,8 @@ struct BackgroundState {
 
 #[derive(Clone)]
 pub struct BackgroundTask {
-    ui_event_channel: Arc<Mutex<mpsc::Receiver<UIEvent>>>,
+    ui_event_receiver: Arc<Mutex<mpsc::Receiver<UIEvent>>>,
+    ui_context: Arc<RwLock<Option<Context>>>,
     options: Arc<RwLock<Options>>,
     state: Arc<RwLock<BackgroundState>>,
 }
@@ -45,9 +47,14 @@ fn get_osc_message(index: usize, password: &[u8], hash: &[u8]) -> Result<OscMess
 }
 
 impl BackgroundTask {
-    pub fn new(ui_event_channel: mpsc::Receiver<UIEvent>, options: &Arc<RwLock<Options>>) -> Self {
+    pub fn new(
+        ui_event_receiver: mpsc::Receiver<UIEvent>,
+        ui_context: Arc<RwLock<Option<Context>>>,
+        options: &Arc<RwLock<Options>>,
+    ) -> Self {
         Self {
-            ui_event_channel: Arc::new(Mutex::new(ui_event_channel)),
+            ui_event_receiver: Arc::new(Mutex::new(ui_event_receiver)),
+            ui_context: ui_context.clone(),
             options: options.clone(),
             state: Arc::new(RwLock::new(BackgroundState { socket: None })),
         }
@@ -79,7 +86,7 @@ impl BackgroundTask {
         }
     }
 
-    async fn handle_event(&self, event: UIEvent) -> Result<()> {
+    async fn handle_ui_event(&self, event: UIEvent) -> Result<()> {
         match event {
             UIEvent::OptionsChanged(options) => {
                 options.save()?;
@@ -99,17 +106,32 @@ impl BackgroundTask {
             UIEvent::Stop => {
                 self.state.write().await.socket.take();
             }
+            UIEvent::Hide => {
+                if let Some(context) = self.ui_context.read().await.as_ref() {
+                    context.send_viewport_cmd(ViewportCommand::Visible(false));
+                    context.request_repaint();
+                }
+            }
+            UIEvent::Show => {
+                if let Some(context) = self.ui_context.read().await.as_ref() {
+                    context.send_viewport_cmd(ViewportCommand::Visible(true));
+                    context.request_repaint();
+                }
+            }
+            UIEvent::Quit => {
+                std::process::exit(0);
+            }
         }
 
         Ok(())
     }
 
     async fn start_event_loop(&self) {
-        let mut ui_event_channel = self.ui_event_channel.lock().await;
+        let mut ui_event_receiver = self.ui_event_receiver.lock().await;
         loop {
             select! {
-                Some(event) =  ui_event_channel.recv() => {
-                    if let Err(e) = self.handle_event(event).await {
+                Some(event) =  ui_event_receiver.recv() => {
+                    if let Err(e) = self.handle_ui_event(event).await {
                         eprintln!("Error handling event: {}", e);
                     }
                 }
