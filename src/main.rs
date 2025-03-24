@@ -1,3 +1,5 @@
+#![windows_subsystem = "windows"]
+
 mod core;
 mod options;
 mod ui;
