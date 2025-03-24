@@ -1,5 +1,4 @@
 use anyhow::Result;
-use std::io::{BufReader, Read};
 use std::thread;
 use tokio::sync::mpsc;
 use tray_icon::{
